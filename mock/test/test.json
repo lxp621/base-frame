@@ -1,0 +1,150 @@
+[
+  {
+    "children": [],
+    "name": "全部"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "code": -1,
+        "name": "全部"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": -1,
+            "name": "全部"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 103289,
+            "code2": 35039,
+            "name": "重点项目组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 111097,
+            "code2": 42482,
+            "name": "白酒3组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21842,
+            "code2": 9422,
+            "name": "营销推广组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21843,
+            "code2": 16476,
+            "name": "自营葡萄酒组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21844,
+            "code2": 16478,
+            "name": "白酒4组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21845,
+            "code2": 16479,
+            "name": "平台葡萄酒组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21847,
+            "code2": 24036,
+            "name": "白酒1组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21848,
+            "code2": 24037,
+            "name": "白酒2组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21849,
+            "code2": 24038,
+            "name": "自营啤酒组"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": -1,
+                "name": "全部"
+              }
+            ],
+            "code": 21850,
+            "code2": 24039,
+            "name": "自营洋酒组"
+          }
+        ],
+        "code": 21841,
+        "code2": 9419,
+        "name": "酒类采销部"
+      }
+    ],
+    "code": 21820,
+    "code2": 952,
+    "name": "消费品事业部"
+  }
+]

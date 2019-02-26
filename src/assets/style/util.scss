@@ -1,0 +1,62 @@
+// body相关
+$bodyBg:#f9f9f9;
+// header相关
+$aside-width:200px;
+$h:60px;
+$headBgColor: #0075ff;
+
+// 标题背景色
+$baseColor: #2299ff;
+$bgColor: #b8b9b9;
+// 基本下划线颜色
+$bottomLineColor: #e3e5e5;
+// 浅色字体颜色
+$lightFontColor: #a9a9a9;
+$middleHei: 540;
+// 项目标题蓝色竖条图标
+@mixin setItemIcon() {
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 22px;
+    margin-right: 8px;
+    background: linear-gradient(left, $baseColor 61.5384%, #fff 61.5384%, #fff 84.61538%, $baseColor 84.61538%);
+    background-size: cover;
+    vertical-align: middle;
+  }
+}
+
+// 项目标题自定义颜色小竖条
+@mixin setItemBeforeBg($bg: $bgColor) {
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    margin-right: 8px;
+    background: $bg;
+    background-size: cover;
+    vertical-align: middle;
+  }
+}
+
+// 菜单底部横线
+@mixin setBottomLine($c: $bottomLineColor) {
+  & {
+    position: relative;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $c;
+  }
+}
+// px转化为rem
+@function torem($px){
+  @return ($px * 16 / 1280) + rem
+}
